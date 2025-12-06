@@ -1,0 +1,200 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -0.5%;
+    margin-top: 0%;
+    margin-right: 0%;
+    background-color: rgb(64, 62, 62);
+}
+
+
+
+
+.hero{
+    background-image: url(../imagens/imagemcapa.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+}
+
+.hero-content{
+    margin: 100px auto 0;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.hero-content p{
+    background-color: rgba(0,0,0, 0.7);
+    font-size: 18px;
+    display: inline-block;
+    padding: 16px;
+    border-bottom: 2px solid;
+}
+
+.hero nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+
+.hero nav a{
+    background-color: RGBA(0,0,0, 0.3);
+    padding: 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0,0,0, 0.5);
+}
+.curso{
+    width: 53.9%;
+    height: 349px;
+    padding: 26px;
+    text-align: justify;
+    background-color: rgb(64, 62, 62);
+    color:white;
+}
+
+.cursot{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 110%;
+    margin-right: 10%;
+    
+}
+.cursot2 a{
+    background-color: RGBA(0,0,0, 0.3);
+    margin-right: 80%;
+    padding: 15px;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: 1px solid white;
+}
+.cursot2 a:hover{
+    background-color: rgba(0,0,0, 0.5);
+}
+
+
+#img1{
+    height: 400PX;
+    width: 45.5%;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+    margin-left: 53.9%;
+    margin-top:-21.5%;
+    display: block;
+}
+
+.curso2{
+    width: 54%;
+    height: 349px;
+    padding: 26px;
+    text-align: justify;
+    background-color: rgb(64, 62, 62);
+    color:white;
+    margin-left: 46.1%;
+    margin-right: -10%;
+
+}
+.cursot2{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 110%;
+}
+
+#img2{
+    
+    height: 400px;
+    width: 45%;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+    position:relative;
+    margin-top:-21.4%;
+    display: block;
+    margin-left: 1.2%;
+    
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin:0;
+    margin-top: -22px;
+    margin-bottom: -25px;
+    height: 250px;
+    color: aliceblue;
+    
+}
+
+.fund1{
+    margin-left: 6%;
+    padding: 50px 0px 0px 0px;
+}
+
+.fund2{
+    margin-left: 6%;
+    margin-top: 90px;
+
+}
+.fund3{
+    margin-left:42%;
+    margin-top: -165px;
+}
+
+.fund4{
+    margin-left: 42%;
+    line-height: 2;
+}
+
+.fund5{
+    margin-left: 85%;
+    margin-top: -11.5%;
+}
+
+.fund6{
+    margin-left: 85%;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 2;
+    color: #ffffff;
+}
+
+.coluna {
+  width: 100%; /* Em mobile, a coluna ocupa toda a largura */
+  padding: 10px;
+}
+
+/* 2. MEDIA QUERY - TELAS MAIORES */
+@media screen and (min-width: 768px) {
+  /* Estas regras SÓ funcionam em telas de 768px ou mais */
+  .coluna {
+    width: 50%; /* Em telas maiores, a coluna ocupa metade da largura */
+    float: left; /* Ou use Flexbox/Grid */
+  }
+}

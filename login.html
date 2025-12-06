@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>ProjetoCss</title>
+    <link rel="stylesheet" href="styles/estiloslogin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="quem.html">Quem Somos</a></li>
+                <li><a href="duvida.html">Dúvidas</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Efetue o seu Login</h1>
+            <p></p>
+        </div>
+    </header>
+
+    
+    <form method="post" action="/cgi-bin/login.exe">
+        <p>
+            <label for="ema">Email:</label>
+            <input id="ema" type="email" name="email" size="40" maxlength="40" required>  
+        </p>
+
+        <p>
+            <label for="sen">Senha:</label>
+            <input id="sen" type="password" name="senha" size="40" maxlength="40" required>  
+        </p>
+        
+        <p>
+            <button class="botao" type="submit" value="Logar">Logar</button>
+            <a href="cadastro.html">Cadastre-se</a>
+        </p>                  
+    </form>
+
+    <footer>
+        <h2 class="fund1">TechCurso</h2>
+        <p class="fund2">© 2025 by BlueTech.</p>
+        <h2 class="fund3">Horário de Atendimento</h2>
+        <p class="fund4">Seg-Qui: 9:00 a 20:00</p>   
+        <p class="fund4">Sexta: 9:00 a 18:00</p>
+        <p class="fund4">Sáb-Dom: Fechado</p>
+        <h2 class="fund5">MENU</h2>
+        <div>
+            <a class="fund6" href="index.html">Home</a>
+            <a class="fund6" href="cursos.html">Cursos</a>
+            <a class="fund6" href="quem.html">Quem Somos</a>
+            <a class="fund6" href="duvida.html">Dúvida</a>
+        </div>
+    </footer>
+</body>
+</html>

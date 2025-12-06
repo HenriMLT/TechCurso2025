@@ -1,0 +1,197 @@
+body{
+    background-color: rgb(84, 81, 81);
+    color: #ffffff;
+}
+
+.hero-content{
+    margin: 100px auto 0;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-left: -76%;
+}
+
+.hero-content p{
+    font-size: 18px;
+    display: inline-block;
+    padding: 16px;
+    border-bottom: 2px solid;
+    width: 88.5%;
+    margin-left: -13%;
+    margin-top: -1%;
+
+}
+
+.hero nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 0.5px solid rgb(255, 255, 255);
+    margin-left: 15px;
+}
+
+.hero nav a{
+    margin-left: 0%;
+    background-color: RGBA(0,0,0, 0.3);
+    padding: 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0,0,0, 0.5);
+}
+.p{
+    background-color: rgba(0,0,0, 0.7);
+    font-size: 18px;
+    display: inline-block;
+    padding: 16px;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+*{
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1.titulo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+  
+  form{
+    margin-top: 3%;
+      width: 30%;
+      box-shadow: 5px 10px 15px 0px rgb(0,0,0);
+      padding: 20px;
+  }
+
+  
+  
+  form label{
+     line-height: 2;
+     font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  
+  form input{
+    margin-left: 0;
+    background-color: rgb(233, 230, 230);
+    color:rgb(0, 0, 0);
+    font-weight: bold;  
+    box-shadow: 2px 2px 2px #0000002f;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  input, button{
+    border-radius: 5px;
+  }
+
+.botao{
+
+  padding: 4px 12px;
+    margin-top: 10px;
+    position: relative;
+    background-color: rgb(8, 9, 9);
+    color: white;
+    padding: 4px 12px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  a{
+    margin-left: 15px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  a:hover{
+    color: rgb(20, 21, 21);
+}
+
+#cadastro{
+    margin-left: 15px;
+    position: relative;
+    color: black;
+}
+
+#cadastro a:hover{
+    color: rgb(14, 14, 15);
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-top: 7%;
+    margin-bottom: -25px;
+    height: 250px;
+    color: aliceblue;
+    width: 100%;
+    
+}
+
+.fund1{
+    margin-left: 6%;
+    padding: 50px 0px 0px 0px;
+}
+
+.fund2{
+    margin-left: 6%;
+    margin-top: 90px;
+
+}
+.fund3{
+    margin-left:42%;
+    margin-top: -165px;
+}
+
+.fund4{
+    margin-left: 42%;
+    line-height: 2;
+}
+
+.fund5{
+    margin-left: 85%;
+    margin-top: -7.5%;
+}
+
+.fund6{
+    margin-left: 85%;
+    display: inline-block;
+    line-height: 2;
+    text-decoration: none;
+    color: #ffffff;
+}
+  
+.coluna {
+  width: 100%; /* Em mobile, a coluna ocupa toda a largura */
+  padding: 10px;
+}
+
+/* 2. MEDIA QUERY - TELAS MAIORES */
+@media screen and (min-width: 768px) {
+  /* Estas regras SÓ funcionam em telas de 768px ou mais */
+  .coluna {
+    width: 50%; /* Em telas maiores, a coluna ocupa metade da largura */
+    float: left; /* Ou use Flexbox/Grid */
+  }
+}

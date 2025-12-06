@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="styles/estiloslogin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="api.js" defer></script>
+</head>
+<body>
+    <h1 class="titulo">
+        Crie o seu Cadastro
+    </h1>
+
+
+    <form method="post" action="/cgi-bin/cadastro.exe">
+
+        <p>
+            <label for="nom">Nome:</label>
+            <input id="nom" type="text" name="nome" size="40" maxlength="40" required>  
+        </p>
+
+        <p>
+            <label for="cpf">Cpf:</label>
+            <input id="cpf" type="text" name="cfp" size="13" maxlength="13" required>  
+        </p>
+
+        <p>
+            <label for="tel">Telefone:</label>
+            <input id="tel" type="text" name="telefone" size="13" maxlength="13" required>  
+        </p>
+
+        <p>
+            <label for="date">Data de Nascimento:</label>
+            <input id="date" type="date" name="date" size="8" maxlength="8" required>  
+        </p>
+
+        <p>
+            <label for="ema">Email:</label>
+            <input id="ema" type="email" name="email" size="40" maxlength="40" required>  
+        </p>
+
+        <p>
+            <label for="sen">Senha:</label>
+            <input id="sen" type="password" name="senha" size="13" maxlength="13" required>  
+        </p>
+
+        <p>
+            <label for="cep">Cep:</label>
+            <input id="cep" type="text" name="cep" size="13" maxlength="13" required>  
+        </p>
+
+        <p>
+            <label for="rua">Rua:</label>
+            <input id="rua" type="text" name="rua" size="40" maxlength="40" required>  
+        </p>
+
+        <p>
+            <label for="nume">Número:</label>
+            <input id="nume" type="text" name="numero" size="13" maxlength="13" required>  
+        </p>
+
+        <p>
+            <label for="com">Complemento (Opcional):</label>
+            <input id="com" type="text" name="complemento" size="40" maxlength="40">  
+        </p>
+
+        <p>
+            <label for="bair">Bairro:</label>
+            <input id="bair" type="text" name="bairro" size="13" maxlength="13" required>  
+        </p>
+
+        <p>
+            <label for="cid">Cidade:</label>
+            <input id="cid" type="text" name="cidade" size="13" maxlength="13" required>  
+        </p>
+
+        <p>
+            <label for="est">Estado:</label>
+            <input id="est" type="text" name="estado" size="13" maxlength="13" required>  
+        </p>
+
+        <p>
+            <button class="botao" type="submit" value="Cadastrar">
+                Cadastrar
+            </button>
+        <p>
+            <a href="index.html">Inicio</a>
+        </p>   
+        </p>
+
+    </form>
+
+    <br><br><br>
+
+</body>
+</html>

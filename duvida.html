@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>ProjetoCss</title>
+    <link rel="stylesheet" href="styles/estilosduvidas.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="quem.html">Quem Somos</a></li>
+                <li><a href="login.html">Fazer Login</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Fale Conosco</h1>
+            <p></p>
+        </div>
+    </header>
+    <main>
+        <p class="p">A nossa missão é esclarecer quaisquer dúvidas pertinentes que tenham. Para entrar em contato, preencha os campos solicitados:</p>
+
+        
+        <form action="/cgi-bin/contato.exe" method="post">
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" size="40" maxlength="40" required>
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" size="40" maxlength="40" required>
+            </p>
+
+            <p>
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" size="40" maxlength="40" required>
+            </p>
+
+            <p>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="10" maxlength="300" required></textarea>
+            </p>
+
+            <p>
+                <button class="botao" type="submit" value="enviar">Enviar</button>
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <h2 class="fund1">TechCurso</h2>
+        <p class="fund2">© 2025 by BlueTech.</p>
+        <h2 class="fund3">Horário de Atendimento</h2>
+        <p class="fund4">Seg-Qui: 9:00 a 20:00</p>   
+        <p class="fund4">Sexta: 9:00 a 18:00</p>
+        <p class="fund4">Sab-Dom: Fechado</p>
+        <h2 class="fund5">MENU</h2>
+        <div>
+            <a class="fund6" href="index.html">Home</a>
+            <a class="fund6" href="cursos.html">Cursos</a>
+            <a class="fund6" href="quem.html">Quem Somos</a>
+        </div>
+    </footer>
+</body>
+</html>
